@@ -5,7 +5,7 @@ client.once('ready', () => {
 	console.log('State Is Working Sir..');
 });
 
-const devs = ["502799582045011970"];
+const devs = ["525397055812665346"];
 const adminprefix = ["k"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
